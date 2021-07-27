@@ -46,7 +46,7 @@
               <h3 class="text-center">Rapid Antigen Screening Result Verification</h3>
             </div>
             <hr>
-            <form action="#" method="post" novalidate="novalidate">
+            <form action="../file/rapid rsu bunda.pdf" method="post" novalidate="novalidate">
               <div class="form-group">
                 <label>Nama Pasien (Full Name)</label>
                 <input readonly type="text" class="form-control" value="Aziz Jamil">
@@ -84,7 +84,9 @@
                 <input readonly type="text" class="form-control btn btn-flat" value="Negatif (Negative)">
               </div>
               <div class="form-group text-align-center" style="width: 100%;">
-                <button type="submit" class="btn btn-success btn-flat m-b-30 m-t-30">Download PDF</button>
+                <a href="../file/rapid rsu bunda.pdf">
+                  <button type="submit" class="btn btn-success btn-flat m-b-30 m-t-30">Download PDF</button>
+                </a>
               </div>
             </form>
           </div>
